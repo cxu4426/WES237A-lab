@@ -1,0 +1,6 @@
+Server (listen on a port):
+    nc -l <port>
+        nc -l 12345
+Client (connect to a server):
+    nc <server ip> <port>
+        nc 192.168.0.207 12345
